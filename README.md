@@ -10,14 +10,14 @@ $ rails g controller Demo index
 ```
 
 - Routing
- - config/routes.rb (root to: 'demo#index')
+  - config/routes.rb (root to: 'demo#index')
 - HTML
- - app/views/layout/application.html.erb
- - app/views/demo/index.html.erb
+  - app/views/layout/application.html.erb
+  - app/views/demo/index.html.erb
 - Vue.js
- - app/javascript/packs/demo.js
+  - app/javascript/packs/demo.js
 - webpack
- - config/webpack/shared.js
+  - config/webpack/shared.js
 
 ```
 ...
